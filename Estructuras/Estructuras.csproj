@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EstructurasNoLineales\" />
+    <Folder Include="Mdelo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="adjunct-System.Text.StringBuilderExtensions" Version="2.0.0" />
   </ItemGroup>
 </Project>
