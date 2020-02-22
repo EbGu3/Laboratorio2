@@ -4,10 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Mdelo\" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="adjunct-System.Text.StringBuilderExtensions" Version="2.0.0" />
   </ItemGroup>
