@@ -8,16 +8,20 @@ namespace LecturaArchivo
         {
             try
             {
-                    using(StreamReader sr = new StreamReader("/Users/eber.g/Projects/Laboratorio2/LecturaArchivo/bin/Debug/netcoreapp3.1/Arbol.txt"))
+
+                StreamReader sr;
+                StreamWriter sw;
+
+                using (sr = new StreamReader("/Users/eber.g/Projects/Laboratorio2/LecturaArchivo/bin/Debug/netcoreapp3.1/Arbol.txt"))
+                {
+                    using (sw = new StreamWriter("/Users/eber.g/Projects/Laboratorio2/LecturaArchivo/bin/Debug/netcoreapp3.1/Arbol.txt"))
                     {
 
-                        var line="";
-                        while ((line = sr.ReadLine())!= null)
-                        {
-                            Console.WriteLine(line);
-                        }
+                        
 
                     }
+
+                }
             }
             catch (Exception ex)
             {
@@ -25,5 +29,14 @@ namespace LecturaArchivo
 
             }
         }
+
+        
+
+           
+        
+
+
+
+
     }
 }
